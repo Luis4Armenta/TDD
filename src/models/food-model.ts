@@ -17,7 +17,7 @@ export class FoodModel {
     return this.food.price
   }
 
-  public getInventary (): number {
-    return this.food.inventary
+  public getInventory (): number {
+    return this.food.inventory
   }
 }

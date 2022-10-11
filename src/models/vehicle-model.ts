@@ -19,7 +19,7 @@ export class VehicleModel {
     return this.vehicle.price
   }
 
-  public getInventary (): number {
-    return this.vehicle.inventary
+  public getInventory (): number {
+    return this.vehicle.inventory
   }
 }

@@ -6,12 +6,12 @@ describe('Classes', () => {
       name: 'Chilaquiles',
       description: 'Tortillas con chile',
       price: 30,
-      inventary: 50
+      inventory: 50
     })
 
     expect(foodModel.getName()).toEqual('Chilaquiles')
     expect(foodModel.getDescription()).toEqual('Tortillas con chile')
     expect(foodModel.getPrice()).toBe(30)
-    expect(foodModel.getInventary()).toBe(50)
+    expect(foodModel.getInventory()).toBe(50)
   })
 })

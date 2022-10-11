@@ -3,5 +3,5 @@ export class VehicleHelper {
   model: string
   year: number
   price: number
-  inventary: number
+  inventory: number
 }
