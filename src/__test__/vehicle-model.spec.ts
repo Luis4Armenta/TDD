@@ -7,13 +7,13 @@ describe('Classes', () => {
       model: 'DXT',
       year: 2020,
       price: 25,
-      inventary: true
+      inventary: 5
     })
 
     expect(vehicleModel.getName()).toEqual('Nissan')
     expect(vehicleModel.getModel()).toEqual('DXT')
     expect(vehicleModel.getYear()).toBe(2020)
     expect(vehicleModel.getPrice()).toBe(25)
-    expect(vehicleModel.getInventary()).toBeTruthy()
+    expect(vehicleModel.getInventary()).toBe(5)
   })
 })
